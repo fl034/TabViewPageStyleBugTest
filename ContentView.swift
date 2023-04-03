@@ -8,7 +8,7 @@ enum Tab: String, Identifiable, Hashable, CaseIterable {
 
 struct ContentView: View {
     // Starting with last element. Changing this to .green doesn't work,
-    // Except when swiped to or yellow was called once.
+    // except when swiped to or yellow was called once.
     @State var selection: Tab = .red
     
     var body: some View {
